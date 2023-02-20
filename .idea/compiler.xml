@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="socket" />
+        <module name="spring-ApplicationContext" />
         <module name="mysql-read-write" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mysql-read-write" target="1.8" />
       <module name="socket" target="1.8" />
+      <module name="spring-ApplicationContext" target="1.8" />
       <module name="springboot+webSocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mysql-read-write" options="-parameters" />
       <module name="socket" options="-parameters" />
+      <module name="spring-ApplicationContext" options="-parameters" />
       <module name="springboot+webSocket" options="-parameters" />
     </option>
   </component>

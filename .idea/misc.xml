@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/mysql-read-write/pom.xml" />
         <option value="$PROJECT_DIR$/grpc-client/pom.xml" />
         <option value="$PROJECT_DIR$/socket/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-ApplicationContext/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -10,9 +10,11 @@
         <module name="socket" />
         <module name="spring-ApplicationContext" />
         <module name="mysql-read-write" />
+        <module name="ListenerDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ListenerDemo" target="1.8" />
       <module name="mysql-read-write" target="1.8" />
       <module name="socket" target="1.8" />
       <module name="spring-ApplicationContext" target="1.8" />
@@ -21,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ListenerDemo" options="-parameters" />
       <module name="mysql-read-write" options="-parameters" />
       <module name="socket" options="-parameters" />
       <module name="spring-ApplicationContext" options="-parameters" />

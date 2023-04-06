@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "java",
+      "type": "com.dadalili.vo.Bean4",
+      "sourceType": "com.dadalili.vo.Bean4"
+    }
+  ],
+  "properties": [
+    {
+      "name": "java.home",
+      "type": "java.lang.String",
+      "sourceType": "com.dadalili.vo.Bean4"
+    },
+    {
+      "name": "java.version",
+      "type": "java.lang.String",
+      "sourceType": "com.dadalili.vo.Bean4"
+    }
+  ],
+  "hints": []
+}

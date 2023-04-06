@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ExportExcel" />
         <module name="socket" />
         <module name="spring-ApplicationContext" />
         <module name="mysql-read-write" />
@@ -14,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ExportExcel" target="1.8" />
       <module name="ListenerDemo" target="1.8" />
       <module name="mysql-read-write" target="1.8" />
       <module name="socket" target="1.8" />
@@ -23,6 +25,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ExportExcel" options="-parameters" />
       <module name="ListenerDemo" options="-parameters" />
       <module name="mysql-read-write" options="-parameters" />
       <module name="socket" options="-parameters" />

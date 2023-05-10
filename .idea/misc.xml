@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/spring-ApplicationContext/pom.xml" />
         <option value="$PROJECT_DIR$/ListenerDemo/pom.xml" />
         <option value="$PROJECT_DIR$/ExportExcel/pom.xml" />
+        <option value="$PROJECT_DIR$/Demos/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
